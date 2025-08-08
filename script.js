@@ -6,57 +6,81 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você foi recrutado por um caçador de túmulos para desvendar os segredos dos túmulos do deserto de Badain Jaran na China, esse deserto é conhecido por ser perigoso e mortal, mas a recompensa é mais de um milhão e você está precisando do dinheiro. Qual o seu primeiro pensamento?",
-        alternativas: [
-            {
-                texto: "Você ficou hesitante mas aceita.",
-                afirmacao: "Como você aceitou ele te deu vários equipamentos e dicas. "
-            },
-            {
-                texto: "Você recusa na hora, mas acontece algo com você que te faz aceitar",
-                afirmacao: "Você foi embora, mas foi sequestrado pelo caçador e ele te ameaçou, você acaba aceitando."
-            }
-        ]
-    },
-    {
-        enunciado: "Após aceitar a missão, o caçador de tumbas te deu um mapa antigo. No entanto, as coordenadas parecem estar escritas em uma linguagem desconhecida. Você tem que decifrá-las para encontrar o caminho para as tumbas. Qual atitude você toma?",                                                
-        alternativas: [
-            {
-                texto: "Você utiliza uma ferramenta de tradução online para decifrar as coordenadas. A ferramenta, por sorte, tem um banco de dados de línguas antigas e consegue fazer a tradução.",
-                afirmacao: "Você consegue traduzir as coordenadas e traçar uma rota segura para as tumbas, evitando as dunas mais perigosas."
-            },
-            {
-                texto: "Você estuda os símbolos e os compara com livros de história e arqueologia que trouxe consigo, usando seu conhecimento para encontrar um padrão e decifrar as coordenadas.",
-                afirmacao: "Você sente mais confiança em decifrar as coordenadas com base em seu próprio conhecimento e esforço, e a tradução se prova precisa."
-            }
-        ]
-    },
-    {
-        enunciado: "No caminho para o túmulo, vocês encontram um acampamento abandonado. A equipe de arqueólogos que estava ali desapareceu, mas deixou para trás um diário. A última entrada fala sobre uma maldição que protegeria o túmulo e um mapa que levaria a uma recompensa ainda maior. Como você se posiciona?",
-        alternativas: [
-            {
-                texto: "Você defende a ideia de que a maldição é apenas uma lenda e que o mapa pode levar a uma descoberta valiosa que pode ser usada para o bem da humanidade.",
-                afirmacao: "Você inspira a equipe a continuar, usando a sua fé na ciência para seguir o mapa, e acaba descobrindo um novo túmulo que contém um tesouro ainda maior."
-            },
-            {
-                texto: "Você se preocupa com o destino dos arqueólogos desaparecidos e defende a ideia de voltar e pedir ajuda, pois uma maldição é algo muito sério e pode ser perigoso demais para a equipe continuar.",
-                afirmacao: "Sua preocupação com a segurança da equipe motiva você a alertar a equipe de resgate local. A equipe é salva, mas a recompensa menor e o caçador de tumbas não está muito feliz."
-            }
-        ]
-    },
-    {
-        enunciado: "Ao chegar na entrada do túmulo, vocês notam um hieróglifo estranho, que ninguém da equipe sabe o que significa. A recompensa está logo atrás do hieróglifo. O que você faz?",
-        alternativas: [
-            {
-                texto: "Você tenta desenhar o hieróglifo com os materiais que tem, depois tira uma foto e envia para um especialista, que em tempo real te diz o que significa.",
-                afirmacao: "A mensagem do especialista foi clara e a equipe conseguiu decifrar o hieróglifo a tempo, abrindo a porta para a recompensa. Você também se ofereceu para ajudar outros aventureiros em situações similares."
-            },
-            {
-                texto: "Você tenta entender o que o hieróglifo significa e como ele se encaixa na cultura local.",
-                afirmacao: "A sua insistência em entender a cultura local e a história do túmulo te ajudam a encontrar a passagem secreta para a câmara do tesouro, onde a recompensa está guardada."
-            }
-        ]
-    },
+        Claro\! Aqui está uma nova história com um tema de ficção científica, pronta para ser explorada.
+
+-----
+
+Você é um engenheiro espacial que perdeu o emprego e está com a vida financeira em risco. Um misterioso e excêntrico magnata da tecnologia, conhecido por seus projetos ambiciosos e eticamente duvidosos, o recruta para uma missão perigosa: recuperar uma relíquia tecnológica chamada "Coração da Nebulosa" de uma nave alienígena abandonada na fronteira da galáxia.
+
+## A Missão
+
+```json
+{
+    "enunciado": "Você foi recrutado para uma missão perigosa a bordo de uma nave alienígena abandonada, a Xylos, para encontrar um artefato lendário que vale bilhões. A missão é arriscada, mas a recompensa resolveria seus problemas para sempre. Qual o seu primeiro pensamento?",
+    "alternativas": [
+        {
+            "texto": "Você se sente apreensivo, mas aceita a oferta.",
+            "afirmacao": "O magnata lhe fornece um traje de última geração e dados de navegação incompletos, confiando em suas habilidades para improvisar."
+        },
+        {
+            "texto": "Você recusa imediatamente, achando a proposta muito perigosa, mas algo em sua vida o obriga a voltar atrás.",
+            "afirmacao": "Você é procurado por credores e, sem saída, aceita a missão. Os agentes do magnata o levam à força para a nave, deixando claro que não é um pedido, é uma ordem."
+        }
+    ]
+},
+{
+    "enunciado": "A bordo da nave Xylos, você encontra o painel de controle principal. As coordenadas para o núcleo da nave estão em uma linguagem alienígena desconhecida. Você precisa decifrá-las para avançar.",
+    "alternativas": [
+        {
+            "texto": "Você utiliza um decifrador de linguagens universais do seu traje. A ferramenta traduz a maior parte, mas com alguns erros, sugerindo um caminho mais longo.",
+            "afirmacao": "O decifrador, embora imperfeito, traça um caminho seguro, porém lento. Você evita armadilhas, mas gasta recursos e tempo."
+        },
+        {
+            "texto": "Você estuda os símbolos e os compara com padrões de energia e astrofísica, usando seu conhecimento para encontrar uma lógica na linguagem alienígena.",
+            "afirmacao": "Sua persistência em usar a lógica e o conhecimento científico o leva a uma tradução precisa. Você descobre um atalho, mas ele passa por áreas de risco."
+        }
+    ]
+},
+{
+    "enunciado": "No caminho para o núcleo, você e a equipe encontram um registro de tripulação. A última entrada fala sobre um vírus alienígena que teria 'devorado' o sistema nervoso da tripulação original. O registro também aponta para um novo dispositivo de defesa que, se ativado, poderia protegê-los do vírus.",
+    "alternativas": [
+        {
+            "texto": "Você defende que o vírus pode ser uma lenda e que o dispositivo de defesa pode ser apenas uma armadilha. A equipe deve seguir em frente sem desvios.",
+            "afirmacao": "Você inspira a equipe a continuar. Sua convicção se mostra correta: o vírus era apenas um sistema de defesa antigo. Você chega ao núcleo com sucesso."
+        },
+        {
+            "texto": "Você se preocupa com o destino da tripulação original e defende a ideia de desviar o caminho para ativar o dispositivo de defesa, garantindo a segurança de todos.",
+            "afirmacao": "Sua preocupação com a segurança da equipe o leva a ativar o dispositivo, que na verdade libera uma onda de choque eletromagnética que desativa o Coração da Nebulosa. A missão falha, mas a equipe está a salvo."
+        }
+    ]
+},
+{
+    "enunciado": "Finalmente, você chega à câmara do 'Coração'. A entrada está protegida por um campo de força que só pode ser desativado com uma sequência de códigos. Os códigos são um mistério para sua equipe.",
+    "alternativas": [
+        {
+            "texto": "Você tira uma foto dos símbolos e a envia para o magnata. Ele, em tempo real, usa um supercomputador para decifrar os códigos e o envia para você.",
+            "afirmacao": "O magnata decifra os códigos e você consegue desativar o campo de força. A equipe dele, no entanto, já está no local esperando para traí-lo."
+        },
+        {
+            "texto": "Você insiste em analisar os padrões e as conexões do campo de força com o próprio 'Coração', usando seu conhecimento de engenharia para encontrar a solução.",
+            "afirmacao": "A sua insistência em resolver o problema com o seu próprio conhecimento o faz perceber uma falha de energia. Você reativa um circuito e desliga o campo de força. A equipe do magnata é pega de surpresa."
+        }
+    ]
+},
+{
+    "enunciado": "Você e a equipe conseguem chegar ao 'Coração da Nebulosa'. No entanto, o magnata revela suas intenções de ficar com o artefato para si e usa sua equipe para roubá-lo. O que você faz?",
+    "alternativas": [
+        {
+            "texto": "Você se opõe ao magnata e luta, usando suas habilidades de engenharia para criar uma falha no sistema de defesa da nave para se proteger e tomar o artefato.",
+            "afirmacao": "Você e a equipe vencem o magnata, mas ele aciona a autodestruição da nave. Vocês fogem, mas sem o Coração, e agora são procurados pela corporação do magnata. Sua vida nunca mais será a mesma."
+        },
+        {
+            "texto": "Você tenta negociar com o magnata, oferecendo a ele o 'Coração da Nebulosa' em troca de sua parte na recompensa. Você percebe que o artefato é poderoso e perigoso.",
+            "afirmacao": "Você aceita o acordo. O magnata vai embora com o 'Coração da Nebulosa', e você recebe sua recompensa. No entanto, o magnata acaba usando o artefato para criar uma arma destrutiva, e você se arrepende de ter participado de tudo isso."
+        }
+    ]
+}
+```
     {
         enunciado: "Você e a equipe conseguem chegar ao tesouro, que é um baú cheio de moedas e artefatos. No entanto, o caçador de tumbas tenta roubar tudo. O que você faz?",
         alternativas: [
