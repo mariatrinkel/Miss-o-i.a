@@ -5,16 +5,6 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
-    {
-        Claro\! Aqui está uma nova história com um tema de ficção científica, pronta para ser explorada.
-
------
-
-Você é um engenheiro espacial que perdeu o emprego e está com a vida financeira em risco. Um misterioso e excêntrico magnata da tecnologia, conhecido por seus projetos ambiciosos e eticamente duvidosos, o recruta para uma missão perigosa: recuperar uma relíquia tecnológica chamada "Coração da Nebulosa" de uma nave alienígena abandonada na fronteira da galáxia.
-
-## A Missão
-
-```json
 {
     "enunciado": "Você foi recrutado para uma missão perigosa a bordo de uma nave alienígena abandonada, a Xylos, para encontrar um artefato lendário que vale bilhões. A missão é arriscada, mas a recompensa resolveria seus problemas para sempre. Qual o seu primeiro pensamento?",
     "alternativas": [
