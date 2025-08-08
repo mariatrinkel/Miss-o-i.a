@@ -79,8 +79,7 @@ Você é um engenheiro espacial que perdeu o emprego e está com a vida financei
             "afirmacao": "Você aceita o acordo. O magnata vai embora com o 'Coração da Nebulosa', e você recebe sua recompensa. No entanto, o magnata acaba usando o artefato para criar uma arma destrutiva, e você se arrepende de ter participado de tudo isso."
         }
     ]
-}
-```
+} 
     {
         enunciado: "Você e a equipe conseguem chegar ao tesouro, que é um baú cheio de moedas e artefatos. No entanto, o caçador de tumbas tenta roubar tudo. O que você faz?",
         alternativas: [
